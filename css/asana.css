@@ -1,0 +1,50 @@
+#impress:not(.impress-not-supported) .step{
+    opacity:0.4;
+}
+
+#impress .step{
+    width:700px;
+    height: 600px;
+    position:relative;
+    margin:0 auto;
+
+    -moz-transition:1s opacity;
+    -webkit-transition:1s opacity;
+    transition:1s opacity;
+}
+
+body
+{
+background-color:#c1deee;
+}
+
+#impress .step.active{
+    opacity:1;
+}
+
+#impress p{
+    font: normal 18px/1.3 'Open Sans', sans-serif;
+    color:#27333f;
+    z-index:10;
+}
+
+#impress a{
+    font: normal 18px/1.3 'Open Sans', sans-serif;
+    z-index:10;
+}
+
+#impress #intro{
+    width: 500px;
+}
+
+#intro p{
+    font-size: 22px;
+    left: 290px;
+    line-height: 1.6;
+    top: 220px;
+    white-space: nowrap;
+}
+
+#intro img{
+    top: 120px;
+}
